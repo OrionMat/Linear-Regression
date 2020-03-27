@@ -54,7 +54,7 @@ thetaC = [0 ; 0];
 alphaC = 0.01;
 cost0C = costMSE(Xscale, thetaC, y, m)
 [thetaC, JpastC] = gradDescent(Xscale, y, thetaC, alphaC, m, itterations);
-costB = costMSE(Xscale, thetaC, y, m)
+costC = costMSE(Xscale, thetaC, y, m)
 
 
 
